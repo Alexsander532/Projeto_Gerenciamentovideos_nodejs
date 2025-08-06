@@ -1,0 +1,29 @@
+POST http://localhost:3333/videos
+//Tipo do conteúdo que está sendo enviado (json) fica no cabeçalho da requisição
+Content-Type: application/json  
+
+{
+    "title": "Video node",
+    "description": "Este é o vídeo 1",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/09b28554-4a7a-444e-bb6e-cd96abe6b609
+//Tipo do conteúdo que está sendo enviado (json) fica no cabeçalho da requisição
+Content-Type: application/json  
+
+{
+    "title": "Video 06",
+    "description": "Este é o vídeo 1",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3333/videos/b8dd1a27-b870-400e-a8e7-f1d44a4b14b8
