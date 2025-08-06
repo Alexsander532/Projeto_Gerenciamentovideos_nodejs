@@ -51,7 +51,6 @@ server.post('/videos', async (request, reply) => {
 server.get('/videos', async (request, reply) => { 
     const search = request.query.search
 
-
     const videos = await database.list(search)
 
     return videos
