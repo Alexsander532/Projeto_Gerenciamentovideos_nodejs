@@ -41,21 +41,25 @@ Esse processo me proporcionou uma visão prática de como evoluir uma API do amb
 Siga os passos abaixo para clonar o repositório, instalar as dependências e iniciar o servidor.
 
 1. Clonar o Repositório
+   
 Abra seu terminal e execute os seguintes comandos:
 
 - git clone https://github.com/seu-usuario/seu-repositorio.git
 - cd seu-repositorio
   
 2. Instalar as Dependências
+   
 Em seguida, instale todas as dependências do projeto com o seguinte comando:
 npm install
 
 3. Configurar o Banco de Dados
+   
 Configure as variáveis de ambiente com os dados de conexão do seu banco de dados Neon. Você pode fazer isso criando um arquivo .env na raiz do projeto, por exemplo:
-DATABASE_URL="sua_string_de_conexao_do_neon"
+DATABASE_URL= "sua_string_de_conexao_do_neon"
 
 4. Iniciar o Servidor
-Após a configuração, você pode iniciar o servidor de desenvolvimento.
+   
+Após a configuração, você pode iniciar o servidor de desenvolvimento:
 npm run dev
 
 ## A API estará acessível em http://localhost:3333.
