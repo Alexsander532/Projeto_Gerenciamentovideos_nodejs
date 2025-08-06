@@ -12,18 +12,16 @@ Uma aplicação backend em **Node.js** com o framework **Fastify** para gerencia
 ## 📚 O que aprendi com esse projeto
 
 Durante o desenvolvimento, pude adquirir e aprofundar conhecimentos em:
-
-- ✅ Criação de APIs REST com Node.js
-- ✅ Conceitos de **encapsulamento** e **orientação a objetos** com JavaScript (classes, objetos)
+- ✅ Criação de **APIs REST** com Node.js e o framework Fastify.
+- ✅ Conceitos de **encapsulamento** e **programação orientada a objetos** com JavaScript.
 - ✅ Métodos HTTP: `GET`, `POST`, `PUT`, `DELETE`
-- ✅ Utilização do framework **Fastify**:
-  - Entendimento das funções `request` e `reply`
-  - Sintaxe enxuta e performática do framework
-- ✅ Utilização de **métodos assíncronos** com `async` / `await`
+- ✅ Utilização de métodos assíncronos com async/await.
 - ✅ Diferença entre **Query Parameters** e **Route Parameters**
 - ✅ Como retornar e consumir dados no formato **JSON**
 - ✅ Armazenamento de dados em **memória local** para testes iniciais
 - ✅ Migração para **banco de dados online** usando **Neon (PostgreSQL)**
+- ✅ Processo de deploy de aplicações Node.js usando o **Render**.
+
 
 Esse processo me proporcionou uma visão prática de como evoluir uma API do ambiente local até uma estrutura mais robusta com banco de dados real.
 
@@ -60,3 +58,4 @@ Após a configuração, você pode iniciar o servidor de desenvolvimento.
 npm run dev
 
 ## A API estará acessível em http://localhost:3333.
+☁️ Deploy: Este projeto foi implantado na plataforma Render, garantindo que a aplicação esteja disponível online de forma contínua.
